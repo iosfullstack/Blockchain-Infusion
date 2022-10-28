@@ -1,0 +1,127 @@
+/* .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-links a {
+    margin-right: 25px;
+  }
+
+  .login1 { 
+    width: 145px;
+    height: 47px;
+    left: 1169px;
+    top: 30px;
+    color: #FFFF;
+    background: linear-gradient(89.82deg, #00A859 0.08%, #9E53B8 98.99%);
+    opacity: 0.7;
+  }
+
+  .nav-links a:hover {
+    color: #00A859;
+    border-bottom: 1px solid #00A859;
+  }
+
+  #mobile i {
+    color: white;
+    display: none;
+    cursor: pointer;
+  } */
+
+  .login1 { 
+    width: 145px;
+    height: 47px;
+    left: 1169px;
+    top: 30px;
+    color: #FFFF;
+    background: linear-gradient(89.82deg, #00A859 0.08%, #9E53B8 98.99%);
+    opacity: 0.7;
+  }
+
+  /* @media screen and (max-width: 850px) {
+    #mobile i{
+      display: block;
+    }
+
+    .nav-links {
+      position: absolute;
+      right: 0px;
+      top: 14vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      height: 70vh;
+      width: 50%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .login-btn {
+      position: absolute;
+      right: 0px;
+      top: 320px;
+      width: 40%;
+    }
+  } */
+
+  /* .nav-links a:hover::after {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #00A859;
+    border-bottom: 1px solid #00A859;
+  } */
+
+  @media screen and (max-width: 576px) {
+    .hamburger {
+      position: relative;
+      width: 24px;
+      height: 24px;
+      transition: all 0.25s;
+      cursor: pointer;
+    }
+
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 24px;
+      height: 2px;
+      background: white;
+      transform: rotate(0);
+      transition: all 0.5s; 
+    }
+
+    .hamburger-middle {
+      transform: translateY(7px);
+    }
+
+    .hamburger-bottom {
+      transform: translateY(14px);
+    }
+
+    .open {
+      transform: rotate(90deg);
+      transform: translateY(0px);
+    }
+
+    .open .hamburger-top {
+      transform: rotate(45deg) translateY(6px) translate(6px);
+    }
+
+    .open .hamburger-middle {
+      display: none;
+    }
+
+    .open .hamburger-bottom {
+      transform: rotate(-45deg) translateY(6px) translate(-6px);
+    }
+  }

@@ -1,0 +1,9 @@
+.footer {
+    width: 100%;
+    border-top: 2px solid green;
+}
+
+.footer-social {
+    border: 2px solid #A64EBD;
+    border-radius: 50px;
+}
