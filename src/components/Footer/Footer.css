@@ -7,3 +7,16 @@
     border: 2px solid #A64EBD;
     border-radius: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer {
+        padding-top: 70px;
+    }
+}

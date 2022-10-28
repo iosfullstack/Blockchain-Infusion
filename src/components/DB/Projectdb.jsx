@@ -1,5 +1,4 @@
-export const Data = [
-    {
+export const Data = [{
         id: 1,
         image: require("../Images/Rectangle 4150.png"),
         name: "Infused Man",

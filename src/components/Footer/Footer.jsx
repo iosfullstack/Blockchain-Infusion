@@ -20,7 +20,7 @@ const Footer = () => {
                 <Link>Explore</Link>
                 <Link>Artists</Link>
             </div>
-            <div className="footer-social w-80 h-16 bg-gray-900 flex flex-row justify-center items-center gap-4">
+            <div className="footer-social w-80 md:h-16 bg-gray-900 flex flex-row justify-center items-center gap-4">
                 <a href="http://"><img src={Twitter} alt="twitter" /></a>
                 <a href="http://"><img src={Tiktok} alt="tiktok" /></a>
                 <a href="http://"><img src={Linkdln} alt="linkdln" /></a>

@@ -7,26 +7,26 @@
 
 
 
-.amount > img {
+.amount>img {
     width: 30px;
     height: 23px;
 }
 
 .p-text {
     font-style: normal;
-font-weight: 700;
-font-size: 36px;
+    font-weight: 700;
+    font-size: 36px;
     background: linear-gradient(90deg, #00A859 7.94%, #9A3899 77.62%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
 
 .buy {
     width: 133px;
-height: 46.42px;
-background: linear-gradient(90deg, #00A859 5.66%, #A64EBD 96.23%);
-opacity: 0.5;
+    height: 46.42px;
+    background: linear-gradient(90deg, #00A859 5.66%, #A64EBD 96.23%);
+    opacity: 0.5;
 }

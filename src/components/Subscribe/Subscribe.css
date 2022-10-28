@@ -1,55 +1,55 @@
 .subscribe {
     /* position: relative; */
     /* width: 957px; */
-height: 401px;
-background: linear-gradient(99.83deg, #00A859 2.26%, rgba(176, 108, 209, 0.5) 50.44%, #000000 95.9%);
-opacity: 0.5;
-border-radius: 20px;
+    height: 401px;
+    background: linear-gradient(99.83deg, #00A859 2.26%, rgba(176, 108, 209, 0.5) 50.44%, #000000 95.9%);
+    opacity: 0.5;
+    border-radius: 20px;
 }
 
 
-.subscribes >h4 {
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 47px;
-color: #FFFFFF;
-margin-top: 60px;
+.subscribes>h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-top: 60px;
 }
 
-.subscribes > p {
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-margin-top: 40px;
-color: #FFFFFF;
+.subscribes>p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 40px;
+    color: #FFFFFF;
 }
 
 .subscribe-input {
     width: 450px;
-height: 52px;
-background: transparent;
-border-bottom: 2px solid #A64EBD;
-border-top: 2px solid #A64EBD;
-border-left: 2px solid #A64EBD;
-outline: none;
-border-bottom-left-radius: 10px;
-border-top-left-radius: 10px;
+    height: 52px;
+    background: transparent;
+    border-bottom: 2px solid #A64EBD;
+    border-top: 2px solid #A64EBD;
+    border-left: 2px solid #A64EBD;
+    outline: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .subscribe-btn {
     position: absolute;
     /* right: 290px; */
     width: 219px;
-height: 52px;
-font-size: 20px;
-font-weight: 500;
-border-bottom-right-radius: 25px;
-border-top-right-radius: 25px;
-background: linear-gradient(90deg, #00A859 5.66%, #A64EBD 96.23%);
-opacity: 0.8;
-backdrop-filter: blur(50px);
+    height: 52px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background: linear-gradient(90deg, #00A859 5.66%, #A64EBD 96.23%);
+    opacity: 0.8;
+    backdrop-filter: blur(50px);
 }
 
 .form {
@@ -60,9 +60,9 @@ backdrop-filter: blur(50px);
 
 .subscribe-input::placeholder {
     font-weight: 400;
-font-size: 24px;
-line-height: 32px;
-padding: 13px;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 13px;
 }
 
 @media screen and (max-width: 768px) {
@@ -87,11 +87,11 @@ padding: 13px;
         font-size: 12px;
     }
 
-    .subscribes >h4 {
+    .subscribes>h4 {
         font-size: 28px;
     }
 
-    .subscribes > p {
+    .subscribes>p {
         font-size: 16px;
         margin-top: 0;
     }
