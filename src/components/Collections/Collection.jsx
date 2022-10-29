@@ -14,7 +14,7 @@ const Collection = () => {
               <div className='mx-7'>
               <div className="num2">02</div>
               <h4>Create your Collection</h4>
-              <p>Click <span className="inline text-green-600">My Collections</span> and set up your collection. Add social links, description, 
+              <p className='create-txt'>Click <span className="inline text-green-600">My Collections</span> and set up your collection. Add social links, description, 
                 profile and banner images and set a secondary sales fee </p>
               </div>
             </div>

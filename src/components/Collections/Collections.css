@@ -17,6 +17,12 @@
     object-fit: contain;
 }
 
+@media screen and (max-width:768px) {
+    .create {
+        width: 359px;
+    }
+}
+
 .c-text {
     font-style: normal;
     font-weight: 700;
@@ -83,6 +89,13 @@
     font-size: 16px;
     line-height: 21px;
     margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .mx-7 > p {
+        width: 325px;
+        font-size: 14px;
+    }
 }
 
 .collection {
